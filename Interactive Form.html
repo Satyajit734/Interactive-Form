@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration Form</title>
+<link rel="stylesheet" href="Interactive Form.css">
+
+</head>
+
+<body>
+
+<form id="myForm">
+<h1>Registration Form</h1>
+
+<div>
+<label>Full Name:</label>
+<input type="text" id="name" placeholder="Full name">
+<p class="error" id="nameError"></p>
+</div>
+
+<div>
+<label>Email:</label>
+<input type="email" id="email" placeholder="Enter Email">
+<p class="error" id="emailError"></p>
+</div>
+
+<div>
+<label>Phone Number:</label>
+<input type="tel" id="phone" placeholder="+91xxxxxxxxxx">
+<p class="error" id="phoneError"></p>
+</div>
+
+<div>
+<label>Password:</label>
+<input type="password" id="password" placeholder="Enter password">
+<p class="error" id="passError"></p>
+</div>
+
+<div>
+<input type="submit" value="Submit">
+</div>
+
+<p class="success" id="successMsg"></p>
+
+</form>
+
+<script src="Interactive Form.js"></script>
+</body>
+</html>
